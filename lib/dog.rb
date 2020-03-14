@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.print_all
-    puts @@all.collect{|dog| dog.name}.join(" ")
+    puts @@all.collect{|dog| dog.name}
   end
 
   def save
